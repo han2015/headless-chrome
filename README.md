@@ -9,9 +9,9 @@
 - alias canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
 
 #### chrome parameters:
-- --headless background mode
-- --blink-settings=imagesEnabled=false block image 
-- --dump-dom print dom
+- background mode --headless
+- block image  --blink-settings=imagesEnabled=false 
+- print dom --dump-dom 
 ```sh
 canary --headless --disable-gpu --blink-settings=imagesEnabled=false --print-to-pdf https://www.baidu.com/
 ```
